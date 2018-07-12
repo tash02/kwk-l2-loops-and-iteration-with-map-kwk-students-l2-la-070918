@@ -4,9 +4,9 @@ function lowerCaseStudentNames (students) {
   return newArray
 }
 
-function nameToAttributes (students) {
-  var firstName = students.split(' ').slice(0, -1).join(' ');
-  var lastName = students.split(' ').slice(-1).join(' ');
-  return 
-  return lastName
-}
+// function nameToAttributes (students) {
+//   var firstName = students.split(' ').slice(0, -1).join(' ');
+//   var lastName = students.split(' ').slice(-1).join(' ');
+//   return 
+//   return lastName
+// }
