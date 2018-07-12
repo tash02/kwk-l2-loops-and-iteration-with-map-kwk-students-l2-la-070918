@@ -4,6 +4,6 @@ function lowerCaseStudentNames () {
 }
 
 students = students.map(function(a) { 
-    a.studenst = a.students.toLowerCase();
+    a.students = a.students.toLowerCase();
     return a;
 });
