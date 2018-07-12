@@ -4,6 +4,7 @@ function lowerCaseStudentNames (students) {
   return newArray
 }
 
-function nameToAttributes () {
+function nameToAttributes (students) {
+  
   
 }
