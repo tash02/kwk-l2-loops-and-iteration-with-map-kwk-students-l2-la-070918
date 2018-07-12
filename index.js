@@ -5,7 +5,7 @@ function lowerCaseStudentNames (students) {
 }
 
 function nameToAttributes (students) {
-  var newArray = students.map (function (var firstName = fullName.split(' ').slice(0, -1).join(' ');
+  var firstName = fullName.split(' ').slice(0, -1).join(' ');
   var lastName = fullName.split(' ').slice(-1).join(' ');
-  )
+  
 }
