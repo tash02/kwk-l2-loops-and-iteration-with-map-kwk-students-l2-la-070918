@@ -2,6 +2,8 @@
 function lowerCaseStudentNames (students) {
   var newArray = students.map(function (val) { return val.toLowerCase(); });
   return newArray
+}
 
+function nameToAttributes () {
   
 }
