@@ -10,3 +10,14 @@ function lowerCaseStudentNames (students) {
 //   return 
 //   return lastName
 // }
+function separateName(studentName){
+  var arrOfNames = studentName.split(' ');
+  var attributes = {
+    firstName: arrOfNames[0],
+    lastName: arrOfNames[1]
+  } 
+  return attributes;
+}
+function nameToAttributes(students){ // sofia checked this is right
+  return students.map(separateName);
+  }
